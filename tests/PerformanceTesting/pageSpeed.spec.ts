@@ -27,7 +27,7 @@ test('Pagespeed API call for Mobile', async ({ request }) => {
     const cat3 = "BEST_PRACTICES";
     const cat4 = "SEO";
     for (let index = 0; index < resultData.length; index++) {
-        const queryParam: string = `key=AIzaSyDlqVOEONZV90Bsy5H04N0VxaNm1a56Ms8&url=${resultData[index].url}&strategy=${strategy}&category=${cat1}&category=${cat2}&category=${cat3}&category=${cat4}`;
+        const queryParam: string = `key=samplekey&url=${resultData[index].url}&strategy=${strategy}&category=${cat1}&category=${cat2}&category=${cat3}&category=${cat4}`;
         const response = await request.get(`https://pagespeedonline.googleapis.com/pagespeedonline/v5/runPagespeed?${queryParam}`);
         const respBody = (await response?.json())
 
