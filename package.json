@@ -1,0 +1,41 @@
+{
+  "name": "playwrightv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:performance": "npx playwright test pageSpeed.spec.ts --ui",
+    "test:desktop-chromium": "cross-env test_env=app1 npx playwright test headerFooter-func.spec.ts --project=chromium --headed",
+    "test:desktop-firefox": "cross-env test_env=app2 npx playwright test test1.spec.ts --project=firefox --headed",
+    "test:desktop-webkit": "cross-env test_env=app1 npx playwright test test1.spec.ts --project=webkit --headed",
+    "test:mobile-safari": "cross-env test_env=app1 npx playwright test mobile_headerFooter.spec.ts --project=MobileSafari --headed",
+    "test:mobile-android": "cross-env test_env=app1 npx playwright test mobile_headerFooter.spec.ts --project=MobileChrome --headed",
+    "test:desktop-ui": "cross-env test_env=uncw playwright test test1.spec.ts --project=chromium --ui",
+    "test:mobile-ui": "cross-env test_env=uncw npx playwright test test2.spec.ts --project=MobileSafari --ui",
+    "test:desktop-visual": "cross-env test_env=tamiu npx playwright test test3.spec.ts --project=chromium --headed",
+    "test:chrome-viewport1": "cross-env test_env=app1 npx playwright test test4.spec.ts --project=ChromeViewport-1 --headed",
+    "test:chrome-viewport2": "cross-env test_env=app1 npx playwright test test4.spec.ts --project=ChromeViewport-2 --headed",
+    "test:chrome-viewport3": "cross-env test_env=app1 npx playwright test test4.spec.ts --project=ChromeViewport-3 --headed",
+    "test:chrome-viewport4": "cross-env test_env=app1 npx playwright test test4.spec.ts --project=ChromeViewport-4 --headed",
+    "clean:allureReports": "rimraf allure-report allure-results && mkdirp allure-report allure-results",
+    "generate:allureReport": "npx allure generate ./allure-results --clean",
+    "open:allureReport": "npx allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.13.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.1",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "email": "test@test.com",
+    "firstName" : "test",
+    "lastName": "user",
+    "phoneNo": "(415) 222-2222",
+    "zipCode" : "22222"
+}

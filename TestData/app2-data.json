@@ -1,0 +1,42 @@
+{
+    "Online-program": {
+        "font-size": "18px",
+        "font-family": "lato, Arial, sans-serif",
+        "font-weight": "600",
+        "color": "rgb(0, 132, 133)"
+    },
+    "Getting-started": {
+        "font-size": "18px",
+        "font-family": "lato, Arial, sans-serif",
+        "font-weight": "600",
+        "color": "rgb(0, 132, 133)"
+    },
+    "Resources": {
+        "font-size": "18px",
+        "font-family": "lato, Arial, sans-serif",
+        "font-weight": "600",
+        "color": "rgb(0, 132, 133)"
+    },
+    "h1-Text": {
+        "font-size": "51px",
+        "font-family": "lato, Arial, sans-serif",
+        "font-weight": "900",
+        "color": "rgb(255, 255, 255)"
+    },
+    "p-tag-text-under-header": {
+        "font-size": "16px",
+        "font-family": "--",
+        "font-weight": "600",
+        "color": "rgb(68, 68, 68)"
+    },
+    "header-Logo": {
+        "width": "453px",
+        "height": "33.8594px",
+        "font-family": "lora, Arial, sans-serif"
+    },
+    "header-Logo-mobile": {
+        "width": "453px",
+        "height": "33.8594px",
+        "font-family": "lora, Arial, sans-serif"
+    }
+}

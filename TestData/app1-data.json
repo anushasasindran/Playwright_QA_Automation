@@ -1,0 +1,60 @@
+{
+    "Online-program": {
+        "font-size": "18px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "500",
+        "color": "rgb(255, 255, 255)"
+    },
+    "Getting-started": {
+        "font-size": "18px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "500",
+        "color": "rgb(255, 255, 255)"
+    },
+    "Resources": {
+        "font-size": "18px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "500",
+        "color": "rgb(255, 255, 255)"
+    },
+    "h1-Text": {
+        "font-size": "60px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "700",
+        "color": "rgb(97, 22, 45)"
+    },
+    "p-tag-text-under-header": {
+        "font-size": "16px",
+        "font-family": "--",
+        "font-weight": "600",
+        "color": "rgb(68, 68, 68)"
+    },
+    "header-Logo": {
+        "width": "418px",
+        "height": "64.3594px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif"
+    },
+    "header-Logo-mobile": {
+        "width": "250px",
+        "height": "38.4844px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif"
+    },
+    "footer-RequestInfo-mobile":{
+        "font-size": "18px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "400",
+        "color": "rgb(44, 44, 44)"
+    },
+    "footer-ApplyNow-mobile":{
+        "font-size": "14px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "700",
+        "color": "rgb(97, 22, 45)"
+    },
+    "footer-PhoneNumber-mobile":{
+        "font-size": "18px",
+        "font-family": "raleway, Arial, \"Helvetica LT Std\", sans-serif",
+        "font-weight": "700",
+        "color": "rgb(68, 68, 68)"
+    }
+}
